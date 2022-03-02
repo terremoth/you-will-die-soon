@@ -11,4 +11,5 @@ Check it out: [https://terremoth.github.io/you-will-die-soon/](https://terremoth
 - [ ] Translation for PT
 - [ ] Translation for ES
 - [ ] Save language (en, pt, es), month and year in a cookie so it can be set automatically after load the page
+- [ ] Print option, so you can manually paint the white items month after month
 - [ ] Make it into a PWA
