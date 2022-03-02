@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#app {
+    margin-top: 20px;
+    display: grid;
+    max-width: 500px;
+    grid-template-columns: repeat(36, 1fr);
+}
+
+.life-month {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    border: 1px solid black;
+    margin-top: 2px;
+}
+
+.life-month-used {
+    background-color: red;
+}
+
+/* Blockquote styles from: https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p {
+    display: inline-block;
+}
